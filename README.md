@@ -31,6 +31,7 @@ Git & GitHub
 
 
 📁 Project Structure
+
 employee-management-system
 │
 ├── controller
@@ -64,7 +65,7 @@ CREATE TABLE employee (
 
 Clone the repository:
 
-git clone https://github.com/your-username/employee-management-system.git
+git clone https://github.com/ansarhansi/employee-management-system.git
 
 
 Open the project in Eclipse IDE
