@@ -1,21 +1,21 @@
 Employee Management System
 
 A console-based Employee Management System developed using Java, JDBC, and PostgreSQL.
-This project performs basic CRUD operations to manage employee records efficiently.
+The application enables efficient management of employee records by performing CRUD operations through a menu-driven interface.
 
 🚀 Features
 
 Add new employee records
 
-View all employees
+View all employee details
 
 Search employee by ID
 
 Update employee email by ID
 
-Delete employee by ID
+Delete employee records
 
-Console-based interactive menu
+Interactive console-based menu
 
 🛠️ Technologies Used
 
@@ -27,9 +27,10 @@ PostgreSQL
 
 Eclipse IDE
 
-Git & GitHub 
+Git & GitHub
 
 
+📁 Project Structure
 employee-management-system
 │
 ├── controller
@@ -46,24 +47,47 @@ employee-management-system
 │
 └── README.md
 
+🗄️ Database Details
+
+Database Name: employee_database
+Table Name: employee
+
+CREATE TABLE employee (
+    e_id INT PRIMARY KEY,
+    e_name VARCHAR(50),
+    e_salary DOUBLE PRECISION,
+    e_loc VARCHAR(50)
+);
+
+
+▶️ How to Run the Project
+
+Clone the repository:
 
 git clone https://github.com/your-username/employee-management-system.git
 
+
+Open the project in Eclipse IDE
+
+Add PostgreSQL JDBC Driver to the build path
+
+Update database credentials in:
+
+connection/GetConnection.java
+
+
+Run:
+
+EmployeeController.java
 
 🎯 Learning Outcomes
 
 Hands-on experience with JDBC
 
-Understanding DAO Design Pattern
+Practical understanding of DAO Design Pattern
 
-Database connectivity using PostgreSQL
+Real-time database connectivity using PostgreSQL
 
-Writing clean and structured Java code
+Improved skills in Java, SQL, and exception handling
 
-Performing CRUD operations in real-time applications
-
-
-⭐ If you like this project
-
-Give it a ⭐ on GitHub — it motivates me to build more projects!
-
+Experience building a structured backend application
